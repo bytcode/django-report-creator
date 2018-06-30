@@ -1,0 +1,45 @@
+{% load i18n %}
+<div class="date_range">
+    <div class="row start">
+    {% spaceless %}
+    {% for widget in widget.subwidgets %}
+        {% if forloop.first %}
+        <div class="row start">
+        <label for="{{ widget.auto_id }}">{% trans "Start date" %}</label>
+        </div>
+        {% endif %}
+        {% if forloop.last %}
+        <div class="row end">
+        <label for="{{ field.widget.auto_id }}">{% trans "End date" %}</label>
+        </div>
+        {% endif %}
+        {% include widget.template_name %}
+
+    {% endfor %}
+    {% endspaceless %}
+
+</div>
+<style>
+form .row {
+    float: left;
+    clear: both;
+    margin: 5px 0;
+}
+.date_range {
+    float: left;
+    clear: right;
+}
+.date_range .row {
+    margin: 2px;
+}
+
+.date_range input
+{
+    width:100px !important;
+}
+.date_range label
+{
+    width:auto !important;
+    min-width: 100px;
+}
+</style>
