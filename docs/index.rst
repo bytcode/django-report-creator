@@ -1,12 +1,8 @@
-Welcome to django-model-report's documentation!
+Welcome to django-report-creator's documentation!
 ===============================================
 
-django-model-report is a Django application and library for reports integrated with highcharts.
+django-report-creator is a Django application and library for reports integrated with highcharts.
 
-Demo
-====
-
-http://django-model-report.herokuapp.com
 
 User Guide
 ----------

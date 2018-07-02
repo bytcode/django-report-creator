@@ -3,16 +3,16 @@ from os.path import join, dirname
 from setuptools import setup, find_packages
 
 
-version = __import__('model_report').__version__
+version = __import__('report_creator').__version__
 
 
 LONG_DESCRIPTION = """
-django-model-report
+django-report-creator
 ===================
 
 django reports integrated with highcharts
 
-    $ git clone git://github.com/juanpex/django-model-report.git
+    $ git clone git://github.com/bytcode/django-report-creator.git
 """
 
 
@@ -23,14 +23,14 @@ def long_description():
         return LONG_DESCRIPTION
 
 
-setup(name='django-model-report',
+setup(name='django-report-creator',
       version=version,
-      author='juanpex',
-      author_email='jpma55@gmail.com',
+      author='Joseph M. Daudi',
+      author_email='joseph@bytcode.com',
       description='Django reports integrated with highcharts.',
       license='BSD',
-      keywords='django, model, report, reports, highcharts, chart, charts',
-      url='https://github.com/juanpex/django-model-report',
+      keywords='django, report, reports, report-creator, highcharts, generator with model',
+      url='https://github.com/bytcode/django-report-creator',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
@@ -41,7 +41,7 @@ setup(name='django-model-report',
         'html5lib',
         'BeautifulSoup',
         'xhtml2pdf',
-        'xlwt==0.7.4',
+        'xlwt',
       ],
       classifiers=['Framework :: Django',
                    'Development Status :: 3 - Alpha',
@@ -49,6 +49,4 @@ setup(name='django-model-report',
                    'License :: OSI Approved :: BSD License',
                    'Intended Audience :: Developers',
                    'Environment :: Web Environment',
-                   'Programming Language :: Python :: 2.5',
-                   'Programming Language :: Python :: 2.6',
-                   'Programming Language :: Python :: 2.7'])
+                   'Programming Language :: Python :: 3'])

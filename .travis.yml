@@ -15,7 +15,7 @@ install:
 
 
 before_script:
-  - psql -c 'create database model_report;' -U postgres
+  - psql -c 'create database report_creator;' -U postgres
 
 script:
     - cd example
@@ -24,6 +24,6 @@ script:
 notifications:
   email:
     recipients:
-      - jpma55@gmail.com
+      - joseph@bytcode.com
     on_success: always
     on_failure: always

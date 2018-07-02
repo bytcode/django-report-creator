@@ -5,19 +5,19 @@ Highchart Module
 __init__
 --------
 
-.. automodule:: model_report.highcharts.__init__
+.. automodule:: report_creator.highcharts.__init__
    :members:
 
 
 base
 ----
 
-.. automodule:: model_report.highcharts.base
+.. automodule:: report_creator.highcharts.base
    :members:
 
 
 options
 -------
 
-.. automodule:: model_report.highcharts.options
+.. automodule:: report_creator.highcharts.options
    :members:

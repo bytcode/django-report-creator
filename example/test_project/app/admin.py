@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 from django.contrib import admin
 
-from app.models import Population, Browser, BrowserDownload, OS, Support, Company, ResolutionByYear
+from .models import Population, Browser, BrowserDownload, OS, Support, Company, ResolutionByYear
 
 
 admin.site.register(ResolutionByYear)

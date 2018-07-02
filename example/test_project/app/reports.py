@@ -2,8 +2,8 @@
 
 from .models import OS, Population, Browser, BrowserDownload, ResolutionByYear
 from django.utils.translation import gettext as _
-from model_report.report import reports, ReportAdmin
-from model_report.utils import (usd_format, avg_column, sum_column, count_column)
+from report_creator.report import reports, ReportAdmin
+from report_creator.utils import (usd_format, avg_column, sum_column, count_column)
 
 
 class ResolutionByYearReport(ReportAdmin):

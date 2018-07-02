@@ -7,11 +7,11 @@ except ImportError:
 from django.contrib import admin
 admin.autodiscover()
 
-from model_report import report
+from report_creator import report
 report.autodiscover()
 
 
 urlpatterns = [
     re_path(r'^admin/', admin.site.urls),
-    re_path(r'', include('model_report.urls')),
+    re_path(r'', include('report_creator.urls')),
 ]

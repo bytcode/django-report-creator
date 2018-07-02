@@ -7,7 +7,7 @@ import sys, os
 sys.path.append(os.path.abspath('.'))
 sys.path.append(os.path.abspath('..'))
 sys.path.append(os.path.abspath('../example'))
-sys.path.append(os.path.abspath('../model_report'))
+sys.path.append(os.path.abspath('../report_creator'))
 os.environ['DJANGO_SETTINGS_MODULE'] = 'test_project.settings'
 
 # -- General configuration -----------------------------------------------------
@@ -32,14 +32,14 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'django-model-report'
-copyright = u'2012, juanpex'
+project = u'django-report-creator'
+copyright = u'2018, Joseph M. daudi'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 try:
-    from model_report import __version__
+    from report_creator import __version__
     # The short X.Y version.
     version = '.'.join(__version__.split('.')[:2])
     # The full version, including alpha/beta/rc tags.
@@ -159,7 +159,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'django-model-report'
+htmlhelp_basename = 'django-report-creator'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -178,8 +178,8 @@ htmlhelp_basename = 'django-model-report'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'django-model-report.tex', u'django-model-report Documentation',
-   u'juanpex', 'manual'),
+  ('index', 'django-report-creator.tex', u'django-report-creator Documentation',
+   u'Joseph M. Daudi', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -208,8 +208,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django-model-report', u'django-model-report Documentation',
-     [u'juanpex'], 1)
+    ('index', 'django-report-creator', u'django-report-creator Documentation',
+     [u'Joseph M. Daudi'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -222,8 +222,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'django-model-report', u'django-model-report Documentation',
-   u'juanpex', 'django-model-report', 'One line description of project.',
+  ('index', 'django-report-creator', u'django-report-creator Documentation',
+   u'Joseph M. Daudi', 'django-report-creator', 'One line description of project.',
    'Miscellaneous'),
 ]
 

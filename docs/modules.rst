@@ -13,26 +13,26 @@ highcharts
 export_pdf
 ----------
 
-.. automodule:: model_report.export_pdf
+.. automodule:: report_creator.export_pdf
    :members:
 
 
 report
 ------
 
-.. automodule:: model_report.report
+.. automodule:: report_creator.report
    :members:
 
 
 utils
 -----
 
-.. automodule:: model_report.utils
+.. automodule:: report_creator.utils
    :members:
 
 
 widgets
 -------
 
-.. automodule:: model_report.widgets
+.. automodule:: report_creator.widgets
    :members:

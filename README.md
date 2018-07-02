@@ -1,27 +1,21 @@
  
 
 
-Django Model Report
+Django Report Creator
 ===================
 
-django-model-report is a Django application and library for reports integrated with highcharts.
+django-report-creator is a Django application and library for reports integrated with highcharts.
 
 
-[![Build Status](https://travis-ci.org/juanpex/django-model-report.png)](https://travis-ci.org/juanpex/django-model-report)
+[![Build Status](https://travis-ci.org/bytcode/django-report-creator.png)](https://travis-ci.org/bytcode/django-report-creator)
 
-now maintained by  [@jelenak](https://github.com/jelenak "@jelenak")
 --------------------------------------------------------------------
-
-Demo
-====
-
-http://django-model-report.herokuapp.com
 
 
 Documentation
 =============
 
-https://django-model-report.readthedocs.org/en/latest/
+https://django-report-creator.readthedocs.org/en/latest/
 
 ForeignKey queryset in main report.py file:
 
@@ -39,7 +33,4 @@ Contribute
 ==========
 
 Clone the repo and help to be better this app :)
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/juanpex/django-model-report/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
