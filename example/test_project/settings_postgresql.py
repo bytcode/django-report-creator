@@ -1,4 +1,4 @@
-from settings import *
+from django.conf import settings
 
 DATABASES = {
      'default': {

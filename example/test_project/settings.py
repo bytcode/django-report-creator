@@ -172,10 +172,10 @@ LOGGING = {
     }
 }
 
-try:
-    from local_settings import *
-except Exception:
-    pass
+# try:
+#     from local_settings import *
+# except Exception:
+#     pass
 
 
 try:
