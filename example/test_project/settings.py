@@ -172,11 +172,6 @@ LOGGING = {
     }
 }
 
-# try:
-#     from local_settings import *
-# except Exception:
-#     pass
-
 
 try:
     # TO RUN LOCAL RUN: pip uninstall dj-database-url
